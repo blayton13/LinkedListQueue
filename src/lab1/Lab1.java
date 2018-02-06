@@ -57,6 +57,10 @@ public class Lab1 {
                 case 'l':
                     queue.printPointers();
                     break;
+                case 'g':
+                    System.out.println("Enter index");
+                    int index=console.nextInt();
+                    System.out.println(queue.getLink(index));
             }
             input=console.nextLine().charAt(0);
         }
